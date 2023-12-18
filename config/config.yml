@@ -9,8 +9,9 @@ gen:
     temperature: 0.5
     top_k: 100
     top_p: 0.95
-    max_new_tokens: 100
+    max_new_tokens: 256
     repetition_penalty: 1.1
+    context_length: 2048
     prompt:
       path: "prompts/gen.txt"
 qa:
